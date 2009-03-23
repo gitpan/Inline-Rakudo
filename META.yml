@@ -1,0 +1,24 @@
+---
+abstract: 'allow to use Rakudo from Perl 5 code'
+author:
+  - 'Gabor Szabo'
+build_requires:
+  Test::More: 0.47
+distribution_type: module
+generated_by: 'Module::Install version 0.79'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Inline-Rakudo
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  FindBin: 0
+  perl: 5.008005
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/szabgab/perl6-in-perl5/
+version: 0.01
