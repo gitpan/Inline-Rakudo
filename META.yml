@@ -16,9 +16,11 @@ no_index:
     - inc
     - t
 requires:
+  Carp: 0
+  Cwd: 0
   FindBin: 0
   perl: 5.008005
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/szabgab/perl6-in-perl5/
-version: 0.01
+version: 0.02
